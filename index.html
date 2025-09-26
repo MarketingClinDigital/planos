@@ -46,38 +46,58 @@
 	</head>
 	
 	<body>
+		<p class="rs-p-wp-fix"></p>
+		<sr7-module data-alias="home-1" data-id="593" id="SR7_593_1" class="rs-ov-hidden" data-version="6.7.18">
+			<sr7-adjuster></sr7-adjuster>
+			<sr7-content>
+				<sr7-carousel>
+					<sr7-slide id="SR7_593_1-1978" data-key="1978">
+						<h2 id="SR7_593_1-1978-0" class="sr7-layer">A solução certa para o que você precisa</h2>
+						<p id="SR7_593_1-1978-1" class="sr7-layer">Escolha a opção que mais combina com suas necessidades.</p>
+						<a id="SR7_593_1-1978-2" class="sr7-layer para-voce-link" href="https://clin.digital/redirect" target="_blank" rel="noopener" style="display: inline-block;">
+							<img src="assets/voce.png" style="width: 225px; height: 491px; border-radius: 10px;" alt="Para Você">
+						</a>
+						<a id="SR7_593_1-1978-3" class="sr7-layer" href="https://clin.digital/redirect" target="_blank" rel="noopener">Conhecer os planos</a>
+						<a id="SR7_593_1-1978-7" class="sr7-layer" href="https://clin.digital/peconsig" target="_blank" rel="noopener" style="display: inline-block;">
+							<img src="assets/servidor.png" style="width: 225px; height: 491px; border-radius: 10px;" alt="Servidor">
+						</a>
+						<a id="SR7_593_1-1978-10" class="sr7-layer" href="https://clin.digital/pme" target="_blank" rel="noopener" style="display: inline-block;">
+							<img src="assets/empresas.png" style="width: 225px; height: 491px; border-radius: 10px;" alt="Empresas">
+						</a>
+					</sr7-slide>
+					<sr7-slide id="SR7_593_1-1979" data-key="1979">
+					</sr7-slide>
+				</sr7-carousel>
+			</sr7-content>
+		</sr7-module>
 
-				<p class="rs-p-wp-fix"></p>
-				<sr7-module data-alias="home-1" data-id="593" id="SR7_593_1" class="rs-ov-hidden" data-version="6.7.18">
-					<sr7-adjuster></sr7-adjuster>
-					<sr7-content>
-						<sr7-carousel>
-						<sr7-slide id="SR7_593_1-1978" data-key="1978">
-							<h2 id="SR7_593_1-1978-0" class="sr7-layer">A solução certa para o que você precisa</h2>
-							<p id="SR7_593_1-1978-1" class="sr7-layer">Escolha a opção que mais combina com suas necessidades.</p>
-							<a id="SR7_593_1-1978-3" class="sr7-layer" href="https://clin.digital/redirect" target="_blank" rel="noopener">Conhecer os planos</a>
-						</sr7-slide>
-						<sr7-slide id="SR7_593_1-1979" data-key="1979">
-						</sr7-slide>
-						</sr7-carousel>
-					</sr7-content>
-				</sr7-module>
-				<script>
-					SR7.PMH ??={}; SR7.PMH["SR7_593_1"] = {cn:0,state:false,fn: function() { if (_tpt!==undefined && _tpt.prepareModuleHeight !== undefined) {  _tpt.prepareModuleHeight({id:"SR7_593_1",el:[700,700,600,700,550],type:'carousel',shdw:'0',gh:[700,700,600,700,550],gw:[1240,1240,1024,778,480],vpt:['100px&#039;,&#039;100px&#039;,&#039;100px&#039;,&#039;100px&#039;,&#039;100px'],size:{fullWidth:true, fullHeight:false},mh:'0',onh:0,onw:0,bg:{color:'{"type":"solid","orig":"#f9fafb","string":"rgba(249, 250, 251, 1)"}'},carousel:{pt:'0',pb:'0'},plType:'7',plColor:'#111827'});   SR7.PMH["SR7_593_1"].state=true;} else if((SR7.PMH["SR7_593_1"].cn++)<100)	setTimeout( SR7.PMH["SR7_593_1"].fn,19);}};SR7.PMH["SR7_593_1" ].fn();
-				</script>
+		<script>
+			// Handler para forçar o link correto no clique da seção "Para Você" (desktop e mobile)
+			document.addEventListener('DOMContentLoaded', function() {
+				const paraVoceLink = document.getElementById('SR7_593_1-1978-2');
+				if (paraVoceLink) {
+					paraVoceLink.addEventListener('click', function(e) {
+						e.preventDefault(); // Previne qualquer redirect indesejado
+						e.stopPropagation(); // Para propagação de eventos
+						window.open('https://clin.digital/redirect', '_blank'); // Força o redirect correto
+					});
+				}
+			});
+		</script>
 
-<script>
-	SR7.E.resources.mousetrap = "revslider-mousetrap-addon/public/js/mousetrap.js";
-	SR7.E.resources.particlewave = "revslider-particlewave-addon/public/js/particlewave.js";
-	SR7.E.resources.pwURL = "./revslider-particlewave-addon/";
-	SR7.JSON['SR7_593_1'] = 'assets/SR7_593_1.json';
-	if (SR7.F.init) SR7.F.init(); // DOUBLE CALL NOT A PROBLEM, MANAGED IN INIT
-	document.addEventListener('DOMContentLoaded', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true;});
-	window.addEventListener('load', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true; });
-	SR7.E.v6v7ids ??= {}
-	SR7.E.v6v7ids = JSON.parse('{\"n\":{\"1499\":1978},\"s\":{\"481\":1979}}');
-</script>
-
-		</body>
-	</html>
-		
+		<script>
+			SR7.PMH ??={}; SR7.PMH["SR7_593_1"] = {cn:0,state:false,fn: function() { if (_tpt!==undefined && _tpt.prepareModuleHeight !== undefined) {  _tpt.prepareModuleHeight({id:"SR7_593_1",el:[700,700,600,700,550],type:'carousel',shdw:'0',gh:[700,700,600,700,550],gw:[1240,1240,1024,778,480],vpt:['100px','100px','100px','100px','100px'],size:{fullWidth:true, fullHeight:false},mh:'0',onh:0,onw:0,bg:{color:'{"type":"solid","orig":"#f9fafb","string":"rgba(249, 250, 251, 1)"}'},carousel:{pt:'0',pb:'0'},plType:'7',plColor:'#111827'});   SR7.PMH["SR7_593_1"].state=true;} else if((SR7.PMH["SR7_593_1"].cn++)<100)	setTimeout( SR7.PMH["SR7_593_1"].fn,19);}};SR7.PMH["SR7_593_1" ].fn();
+		</script>
+		<script>
+			SR7.E.resources.mousetrap = "revslider-mousetrap-addon/public/js/mousetrap.js";
+			SR7.E.resources.particlewave = "revslider-particlewave-addon/public/js/particlewave.js";
+			SR7.E.resources.pwURL = "./revslider-particlewave-addon/";
+			SR7.JSON['SR7_593_1'] = 'assets/SR7_593_1.json';
+			if (SR7.F.init) SR7.F.init();
+			document.addEventListener('DOMContentLoaded', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true;});
+			window.addEventListener('load', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true; });
+			SR7.E.v6v7ids ??= {}
+			SR7.E.v6v7ids = JSON.parse('{\"n\":{\"1499\":1978},\"s\":{\"481\":1979}}');
+		</script>
+	</body>
+</html>
